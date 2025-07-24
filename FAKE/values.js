@@ -1,9 +1,9 @@
 // values.js
 
 // Основные данные 
-var fio               = "Бондар Ілля Артемович";
-var fio_en            = "Bondar Illya";
-var birth             = "09.12.2004"; //дата рождения
+var fio               = "Бакумець Володимир Олександрович";
+var fio_en            = "Bakumets Volodymyr";
+var birth             = "13.09.2004"; //дата рождения
 var date_give         = "18.11.2019"; //Дата видачи
 var date_out          = "18.11.2029"; // действителен до
 var organ             = "0512"; //орган что выдал документ
@@ -54,7 +54,7 @@ var student_date_out  = "30.06.2025";
 // Включение/выключение документов
 var isRightsEnabled   = true;
 var isZagranEnabled   = true;
-var isDiplomaEnabled  = false;
+var isDiplomaEnabled  = true;
 var isStudyEnabled    = true;
 // Добавь остальные переменные по аналогии
 
