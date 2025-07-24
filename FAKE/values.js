@@ -1,9 +1,9 @@
 // values.js
 
 // Основные данные 
-var fio               = "Новiцький Богдан Олегович";
-var fio_en            = "Novitskyi Bohdan";
-var birth             = "28.01.1998"; //дата рождения
+var fio               = "Бондар Ілля Артемович";
+var fio_en            = "Bondar Illya";
+var birth             = "09.12.2004"; //дата рождения
 var date_give         = "18.11.2019"; //Дата видачи
 var date_out          = "18.11.2029"; // действителен до
 var organ             = "0512"; //орган что выдал документ
@@ -55,15 +55,15 @@ var student_date_out  = "30.06.2025";
 var isRightsEnabled   = true;
 var isZagranEnabled   = true;
 var isDiplomaEnabled  = false;
-var isStudyEnabled    = false;
+var isStudyEnabled    = true;
 // Добавь остальные переменные по аналогии
 
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
 
-var photo_passport = "pass.png"; //эДок, паспорт,
-var photo_rights   = "prav.png"; //права
-var photo_students = "загран.png"; //диплом, студ
-var photo_zagran   = "zagran.png"; //загран
+var photo_passport = "1.jpg"; //эДок, паспорт,
+var photo_rights   = "1.jpg"; //права
+var photo_students = "1.jpg"; //диплом, студ
+var photo_zagran   = "1.jpg"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо
