@@ -1,32 +1,37 @@
 // values.js
 
 // Основные данные 
-var fio               = "Бакумець Володимир Олександрович";
-var fio_en            = "Bakumets Volodymyr";
-var birth             = "13.09.2004"; //дата рождения
-var date_give         = "18.11.2019"; //Дата видачи
-var date_out          = "18.11.2029"; // действителен до
-var organ             = "0512"; //орган что выдал документ
-var rnokpp            = "3582200550"; //ИНН
-var uznr              = "19980128-07937"; //Номер записи
-var pass_number       = "008420840"; //номер паспорта
+var fio               = "Романенко Амір Альбертович";
+var fio_en            = "Romanenko Amir";
+var birth             = "15.10.2003"; //дата рождения
+var date_give         = "23.03.2023"; //Дата видачи
+var date_out          = "23.03.2033"; // действителен до
+var organ             = "4811"; //орган что выдал документ
+var rnokpp            = "3790808658"; //ИНН
+var uznr              = "20031015-10632"; //Номер записи
+var pass_number       = "008928869"; //номер паспорта
 
-var registeredOn      = "20.09.1999"; //дата регистрации
+var registeredOn      = "12.12.2017"; //дата регистрации
 
 // Прописка
-var legalAdress       = "Вiнницька область"; //Место проживание
-var live              = "Вiнницька область"; //Место рождение 
-var bank_adress       = "Вiнницька область, вул. Паберемна, буд. 12, кв. 5"; //Место жительства указано в банке
+var legalAdress       = "М. Миколаїв, Миколаївська область"; //Место проживание
+var live              = "М. Миколаїв, Миколаївська область"; //Место рождение 
+var bank_adress       = "М. Миколаїв, Миколаївська область, Вул. Родина 197"; //Место жительства указано в банке
 
 var sex               = "Ч";
 var sex_en            = "M";
 
 // Данные для Прав
-var rights_categories = "A, B"; //Категории
+var rights_categories = "B"; //Категории
 var prava_number      = "AUX723027"; // номер прав
-var prava_date_give   = "01.04.2022"; //Дата выдачи Прав
-var prava_date_out    = "01.04.2032"; //Действителен ДО
-var pravaOrgan        = "0512"; //орган который выдал
+var prava_date_give   = "16.02.2024"; //Дата выдачи Прав
+var prava_date_out    = "16.02.2034"; //Действителен ДО
+var pravaOrgan        = "4811"; //орган который выдал
+
+// заграник
+var zagran_number     = "GF510774"; //номер загран
+var dateGiveZ         = "07.04.2023"; //выдан загран
+var dateOutZ          = "07.04.2033"; //коньчаеться загран
 
 
 
@@ -39,12 +44,6 @@ var special_dip       = "Прикладная математика";
 var number_dip        = "MT-545678";
 var form              = "Очная";
 
-
-// заграник
-var zagran_number     = "FX862524"; //номер загран
-var dateGiveZ         = "18.11.2019"; //выдан загран
-var dateOutZ          = "18.11.2029"; //коньчаеться загран
-
 var student_number    = "2022154258";
 var student_date_give = "01.09.2021";
 var student_date_out  = "30.06.2025";
@@ -54,17 +53,18 @@ var student_date_out  = "30.06.2025";
 // Включение/выключение документов
 var isRightsEnabled   = true;
 var isZagranEnabled   = true;
-var isDiplomaEnabled  = true;
-var isStudyEnabled    = true;
+var isDiplomaEnabled  = false;
+var isStudyEnabled    = false;
 // Добавь остальные переменные по аналогии
 
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
 
-var photo_passport = "1.jpg"; //эДок, паспорт,
-var photo_rights   = "1.jpg"; //права
+var photo_passport = "pass.jpg"; //эДок, паспорт,
+var photo_rights   = "prav.jpg"; //права
 var photo_students = "1.jpg"; //диплом, студ
 var photo_zagran   = "1.jpg"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо
+
 
