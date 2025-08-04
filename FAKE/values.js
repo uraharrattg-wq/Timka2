@@ -25,7 +25,7 @@ var sex_en            = "M";
 var rights_categories = "B"; //Категории
 var prava_number      = "AUX723027"; // номер прав
 var prava_date_give   = "16.02.2024"; //Дата выдачи Прав
-var prava_date_out    = "16.02.2034"; //Действителен ДО
+var prava_date_out    = "16.02.2054"; //Действителен ДО
 var pravaOrgan        = "4811"; //орган который выдал
 
 // заграник
@@ -66,6 +66,7 @@ var photo_zagran   = "pass.png"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо
+
 
 
 
